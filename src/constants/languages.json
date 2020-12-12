@@ -1,0 +1,937 @@
+[
+    {
+      "id": "bi",
+      "label": "Bislama",
+      "name": ""
+    },
+    {
+      "id": "cs",
+      "label": "Czech",
+      "name": "Český"
+    },
+    {
+      "id": "ba",
+      "label": "Bashkir",
+      "name": ""
+    },
+    {
+      "id": "ae",
+      "label": "Avestan",
+      "name": ""
+    },
+    {
+      "id": "av",
+      "label": "Avaric",
+      "name": ""
+    },
+    {
+      "id": "de",
+      "label": "German",
+      "name": "Deutsch"
+    },
+    {
+      "id": "mt",
+      "label": "Maltese",
+      "name": "Malti"
+    },
+    {
+      "id": "om",
+      "label": "Oromo",
+      "name": ""
+    },
+    {
+      "id": "rm",
+      "label": "Raeto-Romance",
+      "name": ""
+    },
+    {
+      "id": "so",
+      "label": "Somali",
+      "name": "Somali"
+    },
+    {
+      "id": "ts",
+      "label": "Tsonga",
+      "name": ""
+    },
+    {
+      "id": "vi",
+      "label": "Vietnamese",
+      "name": "Tiếng Việt"
+    },
+    {
+      "id": "gn",
+      "label": "Guarani",
+      "name": ""
+    },
+    {
+      "id": "ig",
+      "label": "Igbo",
+      "name": ""
+    },
+    {
+      "id": "it",
+      "label": "Italian",
+      "name": "Italiano"
+    },
+    {
+      "id": "ki",
+      "label": "Kikuyu",
+      "name": ""
+    },
+    {
+      "id": "ku",
+      "label": "Kurdish",
+      "name": ""
+    },
+    {
+      "id": "la",
+      "label": "Latin",
+      "name": "Latin"
+    },
+    {
+      "id": "ln",
+      "label": "Lingala",
+      "name": ""
+    },
+    {
+      "id": "lb",
+      "label": "Letzeburgesch",
+      "name": ""
+    },
+    {
+      "id": "ny",
+      "label": "Chichewa; Nyanja",
+      "name": ""
+    },
+    {
+      "id": "pl",
+      "label": "Polish",
+      "name": "Polski"
+    },
+    {
+      "id": "si",
+      "label": "Sinhalese",
+      "name": "සිංහල"
+    },
+    {
+      "id": "to",
+      "label": "Tonga",
+      "name": ""
+    },
+    {
+      "id": "az",
+      "label": "Azerbaijani",
+      "name": "Azərbaycan"
+    },
+    {
+      "id": "ce",
+      "label": "Chechen",
+      "name": ""
+    },
+    {
+      "id": "cu",
+      "label": "Slavic",
+      "name": ""
+    },
+    {
+      "id": "da",
+      "label": "Danish",
+      "name": "Dansk"
+    },
+    {
+      "id": "hz",
+      "label": "Herero",
+      "name": ""
+    },
+    {
+      "id": "ie",
+      "label": "Interlingue",
+      "name": ""
+    },
+    {
+      "id": "rw",
+      "label": "Kinyarwanda",
+      "name": "Kinyarwanda"
+    },
+    {
+      "id": "mi",
+      "label": "Maori",
+      "name": ""
+    },
+    {
+      "id": "no",
+      "label": "Norwegian",
+      "name": "Norsk"
+    },
+    {
+      "id": "pi",
+      "label": "Pali",
+      "name": ""
+    },
+    {
+      "id": "sk",
+      "label": "Slovak",
+      "name": "Slovenčina"
+    },
+    {
+      "id": "se",
+      "label": "Northern Sami",
+      "name": ""
+    },
+    {
+      "id": "sm",
+      "label": "Samoan",
+      "name": ""
+    },
+    {
+      "id": "uk",
+      "label": "Ukrainian",
+      "name": "Український"
+    },
+    {
+      "id": "en",
+      "label": "English",
+      "name": "English"
+    },
+    {
+      "id": "ay",
+      "label": "Aymara",
+      "name": ""
+    },
+    {
+      "id": "ca",
+      "label": "Catalan",
+      "name": "Català"
+    },
+    {
+      "id": "eo",
+      "label": "Esperanto",
+      "name": "Esperanto"
+    },
+    {
+      "id": "ha",
+      "label": "Hausa",
+      "name": "Hausa"
+    },
+    {
+      "id": "ho",
+      "label": "Hiri Motu",
+      "name": ""
+    },
+    {
+      "id": "hu",
+      "label": "Hungarian",
+      "name": "Magyar"
+    },
+    {
+      "id": "io",
+      "label": "Ido",
+      "name": ""
+    },
+    {
+      "id": "ii",
+      "label": "Yi",
+      "name": ""
+    },
+    {
+      "id": "kn",
+      "label": "Kannada",
+      "name": "?????"
+    },
+    {
+      "id": "kv",
+      "label": "Komi",
+      "name": ""
+    },
+    {
+      "id": "li",
+      "label": "Limburgish",
+      "name": ""
+    },
+    {
+      "id": "oj",
+      "label": "Ojibwa",
+      "name": ""
+    },
+    {
+      "id": "ru",
+      "label": "Russian",
+      "name": "Pусский"
+    },
+    {
+      "id": "sr",
+      "label": "Serbian",
+      "name": "Srpski"
+    },
+    {
+      "id": "sv",
+      "label": "Swedish",
+      "name": "svenska"
+    },
+    {
+      "id": "ty",
+      "label": "Tahitian",
+      "name": ""
+    },
+    {
+      "id": "zu",
+      "label": "Zulu",
+      "name": "isiZulu"
+    },
+    {
+      "id": "ka",
+      "label": "Georgian",
+      "name": "ქართული"
+    },
+    {
+      "id": "ch",
+      "label": "Chamorro",
+      "name": "Finu' Chamorro"
+    },
+    {
+      "id": "be",
+      "label": "Belarusian",
+      "name": "беларуская мова"
+    },
+    {
+      "id": "br",
+      "label": "Breton",
+      "name": ""
+    },
+    {
+      "id": "kw",
+      "label": "Cornish",
+      "name": ""
+    },
+    {
+      "id": "fi",
+      "label": "Finnish",
+      "name": "suomi"
+    },
+    {
+      "id": "sh",
+      "label": "Serbo-Croatian",
+      "name": ""
+    },
+    {
+      "id": "nn",
+      "label": "Norwegian Nynorsk",
+      "name": ""
+    },
+    {
+      "id": "tt",
+      "label": "Tatar",
+      "name": ""
+    },
+    {
+      "id": "tg",
+      "label": "Tajik",
+      "name": ""
+    },
+    {
+      "id": "vo",
+      "label": "Volapük",
+      "name": ""
+    },
+    {
+      "id": "ps",
+      "label": "Pushto",
+      "name": "پښتو"
+    },
+    {
+      "id": "mk",
+      "label": "Macedonian",
+      "name": ""
+    },
+    {
+      "id": "fr",
+      "label": "French",
+      "name": "Français"
+    },
+    {
+      "id": "bm",
+      "label": "Bambara",
+      "name": "Bamanankan"
+    },
+    {
+      "id": "eu",
+      "label": "Basque",
+      "name": "euskera"
+    },
+    {
+      "id": "fj",
+      "label": "Fijian",
+      "name": ""
+    },
+    {
+      "id": "id",
+      "label": "Indonesian",
+      "name": "Bahasa indonesia"
+    },
+    {
+      "id": "mg",
+      "label": "Malagasy",
+      "name": ""
+    },
+    {
+      "id": "na",
+      "label": "Nauru",
+      "name": ""
+    },
+    {
+      "id": "xx",
+      "label": "No Language",
+      "name": "No Language"
+    },
+    {
+      "id": "qu",
+      "label": "Quechua",
+      "name": ""
+    },
+    {
+      "id": "sq",
+      "label": "Albanian",
+      "name": "shqip"
+    },
+    {
+      "id": "ti",
+      "label": "Tigrinya",
+      "name": ""
+    },
+    {
+      "id": "tw",
+      "label": "Twi",
+      "name": ""
+    },
+    {
+      "id": "wa",
+      "label": "Walloon",
+      "name": ""
+    },
+    {
+      "id": "ab",
+      "label": "Abkhazian",
+      "name": ""
+    },
+    {
+      "id": "bs",
+      "label": "Bosnian",
+      "name": "Bosanski"
+    },
+    {
+      "id": "af",
+      "label": "Afrikaans",
+      "name": "Afrikaans"
+    },
+    {
+      "id": "an",
+      "label": "Aragonese",
+      "name": ""
+    },
+    {
+      "id": "fy",
+      "label": "Frisian",
+      "name": ""
+    },
+    {
+      "id": "gu",
+      "label": "Gujarati",
+      "name": ""
+    },
+    {
+      "id": "ik",
+      "label": "Inupiaq",
+      "name": ""
+    },
+    {
+      "id": "ja",
+      "label": "Japanese",
+      "name": "日本語"
+    },
+    {
+      "id": "ko",
+      "label": "Korean",
+      "name": "한국어/조선말"
+    },
+    {
+      "id": "lg",
+      "label": "Ganda",
+      "name": ""
+    },
+    {
+      "id": "nl",
+      "label": "Dutch",
+      "name": "Nederlands"
+    },
+    {
+      "id": "os",
+      "label": "Ossetian; Ossetic",
+      "name": ""
+    },
+    {
+      "id": "el",
+      "label": "Greek",
+      "name": "ελληνικά"
+    },
+    {
+      "id": "bn",
+      "label": "Bengali",
+      "name": "বাংলা"
+    },
+    {
+      "id": "cr",
+      "label": "Cree",
+      "name": ""
+    },
+    {
+      "id": "km",
+      "label": "Khmer",
+      "name": ""
+    },
+    {
+      "id": "lo",
+      "label": "Lao",
+      "name": ""
+    },
+    {
+      "id": "nd",
+      "label": "Ndebele",
+      "name": ""
+    },
+    {
+      "id": "ne",
+      "label": "Nepali",
+      "name": ""
+    },
+    {
+      "id": "sc",
+      "label": "Sardinian",
+      "name": ""
+    },
+    {
+      "id": "sw",
+      "label": "Swahili",
+      "name": "Kiswahili"
+    },
+    {
+      "id": "tl",
+      "label": "Tagalog",
+      "name": ""
+    },
+    {
+      "id": "ur",
+      "label": "Urdu",
+      "name": "اردو"
+    },
+    {
+      "id": "ee",
+      "label": "Ewe",
+      "name": "Èʋegbe"
+    },
+    {
+      "id": "aa",
+      "label": "Afar",
+      "name": ""
+    },
+    {
+      "id": "co",
+      "label": "Corsican",
+      "name": ""
+    },
+    {
+      "id": "et",
+      "label": "Estonian",
+      "name": "Eesti"
+    },
+    {
+      "id": "is",
+      "label": "Icelandic",
+      "name": "Íslenska"
+    },
+    {
+      "id": "ks",
+      "label": "Kashmiri",
+      "name": ""
+    },
+    {
+      "id": "kr",
+      "label": "Kanuri",
+      "name": ""
+    },
+    {
+      "id": "ky",
+      "label": "Kirghiz",
+      "name": "??????"
+    },
+    {
+      "id": "kj",
+      "label": "Kuanyama",
+      "name": ""
+    },
+    {
+      "id": "nr",
+      "label": "Ndebele",
+      "name": ""
+    },
+    {
+      "id": "or",
+      "label": "Oriya",
+      "name": ""
+    },
+    {
+      "id": "wo",
+      "label": "Wolof",
+      "name": "Wolof"
+    },
+    {
+      "id": "za",
+      "label": "Zhuang",
+      "name": ""
+    },
+    {
+      "id": "ar",
+      "label": "Arabic",
+      "name": "العربية"
+    },
+    {
+      "id": "cv",
+      "label": "Chuvash",
+      "name": ""
+    },
+    {
+      "id": "fo",
+      "label": "Faroese",
+      "name": ""
+    },
+    {
+      "id": "hr",
+      "label": "Croatian",
+      "name": "Hrvatski"
+    },
+    {
+      "id": "ms",
+      "label": "Malay",
+      "name": "Bahasa melayu"
+    },
+    {
+      "id": "nb",
+      "label": "Norwegian Bokmål",
+      "name": "Bokmål"
+    },
+    {
+      "id": "rn",
+      "label": "Rundi",
+      "name": "Kirundi"
+    },
+    {
+      "id": "sn",
+      "label": "Shona",
+      "name": ""
+    },
+    {
+      "id": "st",
+      "label": "Sotho",
+      "name": ""
+    },
+    {
+      "id": "tr",
+      "label": "Turkish",
+      "name": "Türkçe"
+    },
+    {
+      "id": "am",
+      "label": "Amharic",
+      "name": ""
+    },
+    {
+      "id": "fa",
+      "label": "Persian",
+      "name": "فارسی"
+    },
+    {
+      "id": "hy",
+      "label": "Armenian",
+      "name": ""
+    },
+    {
+      "id": "pa",
+      "label": "Punjabi",
+      "name": "ਪੰਜਾਬੀ"
+    },
+    {
+      "id": "as",
+      "label": "Assamese",
+      "name": ""
+    },
+    {
+      "id": "ia",
+      "label": "Interlingua",
+      "name": ""
+    },
+    {
+      "id": "lv",
+      "label": "Latvian",
+      "name": "Latviešu"
+    },
+    {
+      "id": "lu",
+      "label": "Luba-Katanga",
+      "name": ""
+    },
+    {
+      "id": "mr",
+      "label": "Marathi",
+      "name": ""
+    },
+    {
+      "id": "mn",
+      "label": "Mongolian",
+      "name": ""
+    },
+    {
+      "id": "pt",
+      "label": "Portuguese",
+      "name": "Português"
+    },
+    {
+      "id": "th",
+      "label": "Thai",
+      "name": "ภาษาไทย"
+    },
+    {
+      "id": "tk",
+      "label": "Turkmen",
+      "name": ""
+    },
+    {
+      "id": "ve",
+      "label": "Venda",
+      "name": ""
+    },
+    {
+      "id": "dv",
+      "label": "Divehi",
+      "name": ""
+    },
+    {
+      "id": "gv",
+      "label": "Manx",
+      "name": ""
+    },
+    {
+      "id": "kl",
+      "label": "Kalaallisut",
+      "name": ""
+    },
+    {
+      "id": "kk",
+      "label": "Kazakh",
+      "name": "қазақ"
+    },
+    {
+      "id": "lt",
+      "label": "Lithuanian",
+      "name": "Lietuvių"
+    },
+    {
+      "id": "my",
+      "label": "Burmese",
+      "name": ""
+    },
+    {
+      "id": "sl",
+      "label": "Slovenian",
+      "name": "Slovenščina"
+    },
+    {
+      "id": "sd",
+      "label": "Sindhi",
+      "name": ""
+    },
+    {
+      "id": "cn",
+      "label": "Cantonese",
+      "name": "广州话 / 廣州話"
+    },
+    {
+      "id": "hi",
+      "label": "Hindi",
+      "name": "हिन्दी"
+    },
+    {
+      "id": "cy",
+      "label": "Welsh",
+      "name": "Cymraeg"
+    },
+    {
+      "id": "ht",
+      "label": "Haitian; Haitian Creole",
+      "name": ""
+    },
+    {
+      "id": "iu",
+      "label": "Inuktitut",
+      "name": ""
+    },
+    {
+      "id": "jv",
+      "label": "Javanese",
+      "name": ""
+    },
+    {
+      "id": "mh",
+      "label": "Marshall",
+      "name": ""
+    },
+    {
+      "id": "sa",
+      "label": "Sanskrit",
+      "name": ""
+    },
+    {
+      "id": "ss",
+      "label": "Swati",
+      "name": ""
+    },
+    {
+      "id": "te",
+      "label": "Telugu",
+      "name": "తెలుగు"
+    },
+    {
+      "id": "kg",
+      "label": "Kongo",
+      "name": ""
+    },
+    {
+      "id": "ml",
+      "label": "Malayalam",
+      "name": ""
+    },
+    {
+      "id": "uz",
+      "label": "Uzbek",
+      "name": "ozbek"
+    },
+    {
+      "id": "sg",
+      "label": "Sango",
+      "name": ""
+    },
+    {
+      "id": "xh",
+      "label": "Xhosa",
+      "name": ""
+    },
+    {
+      "id": "es",
+      "label": "Spanish",
+      "name": "Español"
+    },
+    {
+      "id": "su",
+      "label": "Sundanese",
+      "name": ""
+    },
+    {
+      "id": "ug",
+      "label": "Uighur",
+      "name": ""
+    },
+    {
+      "id": "yi",
+      "label": "Yiddish",
+      "name": ""
+    },
+    {
+      "id": "yo",
+      "label": "Yoruba",
+      "name": "Èdè Yorùbá"
+    },
+    {
+      "id": "zh",
+      "label": "Mandarin",
+      "name": "普通话"
+    },
+    {
+      "id": "he",
+      "label": "Hebrew",
+      "name": "עִבְרִית"
+    },
+    {
+      "id": "bo",
+      "label": "Tibetan",
+      "name": ""
+    },
+    {
+      "id": "ak",
+      "label": "Akan",
+      "name": ""
+    },
+    {
+      "id": "mo",
+      "label": "Moldavian",
+      "name": ""
+    },
+    {
+      "id": "ng",
+      "label": "Ndonga",
+      "name": ""
+    },
+    {
+      "id": "dz",
+      "label": "Dzongkha",
+      "name": ""
+    },
+    {
+      "id": "ff",
+      "label": "Fulah",
+      "name": "Fulfulde"
+    },
+    {
+      "id": "gd",
+      "label": "Gaelic",
+      "name": ""
+    },
+    {
+      "id": "ga",
+      "label": "Irish",
+      "name": "Gaeilge"
+    },
+    {
+      "id": "gl",
+      "label": "Galician",
+      "name": "Galego"
+    },
+    {
+      "id": "nv",
+      "label": "Navajo",
+      "name": ""
+    },
+    {
+      "id": "oc",
+      "label": "Occitan",
+      "name": ""
+    },
+    {
+      "id": "ro",
+      "label": "Romanian",
+      "name": "Română"
+    },
+    {
+      "id": "ta",
+      "label": "Tamil",
+      "name": "தமிழ்"
+    },
+    {
+      "id": "tn",
+      "label": "Tswana",
+      "name": ""
+    },
+    {
+      "id": "bg",
+      "label": "Bulgarian",
+      "name": "български език"
+    }
+  ]
