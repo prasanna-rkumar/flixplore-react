@@ -8,8 +8,8 @@ import {
 import { makeStyles } from '@material-ui/core/styles';
 
 
-import genres from '../constants/genres.json'
-import poster from "../assets/movie-poster.png";
+import genres from '../../constants/genres.json'
+import poster from "../../assets/movie-poster.png";
 
 
 const useStyles = makeStyles({
@@ -44,11 +44,11 @@ const useStyles = makeStyles({
 	},
 	overview: {
 		overflow: "hidden",
-		textOverflow: "ellipses", 
-		display: "-webkit-box", 
-		WebkitLineClamp: 5, 
+		textOverflow: "ellipses",
+		display: "-webkit-box",
+		WebkitLineClamp: 5,
 		WebkitBoxOrient: "vertical"
-	}, 
+	},
 	divider: { margin: "0 4px 0 4px", height: 16, width: 2, color: "#f0f0f0" }
 });
 
@@ -70,6 +70,7 @@ export default function MovieListTile(props) {
 				container
 				xs={12}
 				spacing={2}
+				style={{ cursor: "pointer" }}
 			>
 				<Grid item
 					lg={2}
@@ -128,7 +129,6 @@ export default function MovieListTile(props) {
 									break
 								}
 							}
-							console.log(genre)
 							return (
 								<div key={index} style={{ padding: "0px 4px 3px 0" }}>
 									<Typography

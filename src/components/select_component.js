@@ -19,7 +19,7 @@ export default function SelectComponent(props) {
 				native
 				value={value}
 				color="primary"
-				onChange={handleChange}
+				onChange={e => handleChange(e.target.value)}
 				label={label}
 				inputProps={{
 					name: name,
