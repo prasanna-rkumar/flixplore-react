@@ -25,14 +25,16 @@ export const API = {
 	movie: (movieID) => {
 		return new Promise((resolve, reject) => {
 			fetch(
-				`${BASE_URL}/watch-locations?movieID=${movieID}`
+				`${BASE_URL}/movie/details?movieID=${movieID}`
 			)
 				.then((resp) => {
 					resp.json().then((message) => {
 						if (message.status === 200) {
-							resolve(message.data.results)
+							resolve(message.data)
 						} else {
-							resolve([])
+							reject({
+								msg: "Movie Not Found"
+							})
 						}
 					}).catch(err => {
 						reject(err)

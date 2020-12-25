@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import {
   Button,
   Grid,
@@ -157,7 +157,7 @@ export default function Home() {
           >
             {movieList === undefined || movieList.length === 0
               ? <div>Let's explore Movies that you would love to watch</div>
-              : ([...movieList.map((item, index) => <div onClick={() => history.push("/movie")}>
+              : ([...movieList.map((item, index) => <div onClick={() => history.push("/movie/" + item.id)}>
                 <MovieListTile movie={item} /></div>)])}
           </Grid>
         </Grid>

@@ -35,7 +35,7 @@ export default class App extends Component {
     return (
       <ThemeProvider theme={theme}>
         <CssBaseline />
-        <AppBar position="static">
+        <AppBar position="sticky">
           <Toolbar>
             <img
               src={logo}
@@ -51,7 +51,7 @@ export default class App extends Component {
         </AppBar>
         <Router>
           <Switch>
-            <Route path="/movie">
+            <Route path="/movie/:movieID">
               <Movie />
             </Route>
             <Route path="/">
