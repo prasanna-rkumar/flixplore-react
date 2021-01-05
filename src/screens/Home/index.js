@@ -60,7 +60,11 @@ export default function Home() {
   }
 
   return (
-    <div>
+    <div style={{
+      height: "calc(100vh - 100px)",
+      display: "flex",
+      flexDirection: "column",
+    }}>
       <Backdrop
         onClick={() => {
           setViewState(ViewState.idle)
@@ -75,7 +79,7 @@ export default function Home() {
         direction="column"
         justify="space-between"
         alignItems="center"
-        style={{ padding: "0 8px 0 8px", marginTop: 32 }}
+        style={{ padding: "0 8px 0 8px", marginTop: 32, flex: 1 }}
       >
         <Grid
           container
@@ -139,42 +143,37 @@ export default function Home() {
             </Grid>
           </Grid>
           <Divider style={{ marginTop: 16, paddingTop: 2 }} orientation="horizontal" flexItem />
-          <Grid
-            item
-            container
-            xs={12}
-            direction="column"
-            justify={
-              viewState === ViewState.idle
-                ? "center"
-                : "flex-start"
-            }
-            alignItems="stretch"
-            style={{
-              marginTop: 8,
-              padding: 0
-            }}
-          >
-            {movieList === undefined || movieList.length === 0
-              ? <div>Let's explore Movies that you would love to watch</div>
-              : ([...movieList.map((item, index) => <div key={item.id} onClick={() => history.push({
+          {movieList === undefined || movieList.length === 0
+            ? <div>Let's explore Movies that you would love to watch</div>
+            : <Grid
+              item
+              container
+              xs={12}
+              direction="column"
+              justify="center"
+              alignItems="stretch"
+              style={{
+                marginTop: 8,
+                padding: 0
+              }}
+            >
+              {([...movieList.map((item, index) => <div key={item.id} onClick={() => history.push({
                 pathname: "/movie/",
                 state: {
                   movieID: item.id
                 }
               })}>
                 <MovieListTile movie={item} /></div>)])}
-          </Grid>
+            </Grid>}
         </Grid>
       </Grid>
       <footer style={{
-        position: "absolute",
-        bottom: 0,
-        height: "2.5rem",
-        paddingBottom: 72,
-        left: "50%"
+        position: "relative",
+        margin: "auto",
+        marginTop: "56px",
+        width: "80vw",
       }}>
-        <Grid style={{ position: "relative" , left: "-50%"}} container direction="row" justify="center" alignItems="center" spacing={2} >
+        <Grid container direction="row" justify="center" alignItems="center" spacing={2} >
           <Grid item>
             Movie data provided by
             </Grid>
