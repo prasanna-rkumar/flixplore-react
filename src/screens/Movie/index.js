@@ -12,6 +12,7 @@ import CastMembers from './CastMembers'
 import WatchProviders from './WatchProviders'
 
 import { useLocation } from 'react-router-dom'
+import { Link } from "react-router-dom";
 
 const useStyles = makeStyles((theme) => {
 	return ({
@@ -101,8 +102,7 @@ function getWatchProviders(movieDetails) {
 export default function MovieDetail() {
 	var classes = useStyles()
 	var location = useLocation()
-	const { movieID } = location.state
-	console.log(movieID)
+	const { movieID } = location.state || {}
 	const [viewState, setViewState] = useState(ViewState.idle)
 	const [movieDetails, setMovieDetails] = useState({})
 
@@ -116,6 +116,18 @@ export default function MovieDetail() {
 			setMovieDetails({})
 		})
 	}, [movieID])
+
+	if (movieID === undefined) {
+		return <div style={{
+			height: "80vh",
+			width: "80vw",
+			margin: "auto",
+			textAlign: "center",
+			paddingTop: "64px",
+		}}>
+			Movie not found. <Link to="/">Go back</Link>
+		</div>
+	}
 
 	if (Object.keys(movieDetails).length === 0)
 		return <div> Loading </div>
