@@ -60,11 +60,7 @@ export default function Home() {
   }
 
   return (
-    <div style={{
-      height: "calc(100vh - 100px)",
-      display: "flex",
-      flexDirection: "column",
-    }}>
+    <div>
       <Backdrop
         onClick={() => {
           setViewState(ViewState.idle)
@@ -79,7 +75,7 @@ export default function Home() {
         direction="column"
         justify="space-between"
         alignItems="center"
-        style={{ padding: "0 8px 0 8px", marginTop: 32, flex: 1 }}
+        style={{ padding: "0 8px 0 8px", marginTop: 32}}
       >
         <Grid
           container
