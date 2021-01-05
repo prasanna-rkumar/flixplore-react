@@ -13,8 +13,8 @@ import { makeStyles } from "@material-ui/core/styles";
 import genres from "../../constants/genres.json";
 import languages from "../../constants/languages.json";
 import { ViewState } from "../../ViewState";
-import MovieListTile from './movie_list_tile'
-import SelectComponent from '../../components/select_component'
+import MovieListTile from './MovieListTile'
+import SelectComponent from '../../components/SelectComponent'
 
 import { API } from '../../api'
 
@@ -157,11 +157,32 @@ export default function Home() {
           >
             {movieList === undefined || movieList.length === 0
               ? <div>Let's explore Movies that you would love to watch</div>
-              : ([...movieList.map((item, index) => <div onClick={() => history.push("/movie/" + item.id)}>
+              : ([...movieList.map((item, index) => <div key={item.id} onClick={() => history.push({
+                pathname: "/movie/",
+                state: {
+                  movieID: item.id
+                }
+              })}>
                 <MovieListTile movie={item} /></div>)])}
           </Grid>
         </Grid>
       </Grid>
+      <footer style={{
+        position: "absolute",
+        bottom: 0,
+        height: "2.5rem",
+        paddingBottom: 72,
+        left: "50%"
+      }}>
+        <Grid style={{ position: "relative" , left: "-50%"}} container direction="row" justify="center" alignItems="center" spacing={2} >
+          <Grid item>
+            Movie data provided by
+            </Grid>
+          <Grid item>
+            <img style={{ width: 72 }} alt="The Movie DataBase" src="https://www.themoviedb.org/assets/2/v4/logos/v2/blue_square_2-d537fb228cf3ded904ef09b136fe3fec72548ebc1fea3fbbd1ad9e36364db38b.svg" />
+          </Grid>
+        </Grid>
+      </footer>
     </div>
   );
 }

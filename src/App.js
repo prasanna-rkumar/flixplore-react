@@ -51,7 +51,7 @@ export default class App extends Component {
         </AppBar>
         <Router>
           <Switch>
-            <Route path="/movie/:movieID">
+            <Route path="/movie">
               <Movie />
             </Route>
             <Route path="/">
@@ -59,6 +59,7 @@ export default class App extends Component {
             </Route>
           </Switch>
         </Router>
+        
       </ThemeProvider>
     );
   }
